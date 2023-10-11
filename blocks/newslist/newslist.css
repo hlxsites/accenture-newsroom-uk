@@ -429,7 +429,9 @@
   }
 
   #filter-form label {
-    width: 120px;
+    max-width: 200px;
+    padding-right: 15px;
+    line-height: 24px;
   }
 
   #filter-form input[type='submit'] {
@@ -525,7 +527,6 @@
 @media (min-width: 1000px) {
   #newslist-search-form {
     display: flex;
-    width: 50%;
   }
 
   #newslist-filter-year {
@@ -566,7 +567,7 @@
 
 .date-picker-wrapper-custom.date-picker-wrapper {
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   border: none;
   background-color: transparent;
   padding: 5px 12px;
